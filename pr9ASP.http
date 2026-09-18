@@ -1,0 +1,11 @@
+@pr9ASP_HostAddress = http://localhost:5254
+
+GET {{pr9ASP_HostAddress}}/todos/
+Accept: application/json
+
+###
+
+GET {{pr9ASP_HostAddress}}/todos/1
+Accept: application/json
+
+###
