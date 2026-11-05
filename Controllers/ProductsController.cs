@@ -17,7 +17,6 @@ namespace pr9ASP.Controllers
             _context = context;
         }
 
-        // GET: api/products?page=1&pageSize=10
         [HttpGet]
         public async Task<ActionResult<IEnumerable<ProductDto>>> GetAll(
             [FromQuery] int page = 1,
@@ -36,7 +35,6 @@ namespace pr9ASP.Controllers
             return Ok(products);
         }
 
-        // GET: api/products/5
         [HttpGet("{id:int}")]
         public async Task<ActionResult<ProductDto>> GetById(int id)
         {
@@ -52,7 +50,6 @@ namespace pr9ASP.Controllers
             return Ok(ProductDto.ToDto(product));
         }
 
-        // POST: api/products
         [HttpPost]
         public async Task<ActionResult<ProductDto>> Create([FromBody] CreateProductDto dto)
         {
@@ -71,7 +68,6 @@ namespace pr9ASP.Controllers
             return CreatedAtAction(nameof(GetById), new { id = product.Product_Id }, result);
         }
 
-        // PUT: api/products/5
         [HttpPut("{id:int}")]
         public async Task<IActionResult> Update(int id, [FromBody] UpdateProductDto dto)
         {
@@ -87,7 +83,6 @@ namespace pr9ASP.Controllers
             return NoContent();
         }
 
-        // PATCH: api/products/5
         [HttpPatch("{id:int}")]
         public async Task<IActionResult> Patch(int id, [FromBody] PatchProductDto dto)
         {
@@ -108,7 +103,6 @@ namespace pr9ASP.Controllers
             return NoContent();
         }
 
-        // DELETE: api/products/5
         [HttpDelete("{id:int}")]
         public async Task<IActionResult> Delete(int id)
         {

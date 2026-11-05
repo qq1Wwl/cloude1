@@ -138,3 +138,4 @@ C:\Users\xd\Desktop\pr9ASP\pr9ASP\obj\Debug\net8.0\refint\pr9ASP.dll
 C:\Users\xd\Desktop\pr9ASP\pr9ASP\obj\Debug\net8.0\pr9ASP.pdb
 C:\Users\xd\Desktop\pr9ASP\pr9ASP\obj\Debug\net8.0\pr9ASP.genruntimeconfig.cache
 C:\Users\xd\Desktop\pr9ASP\pr9ASP\obj\Debug\net8.0\ref\pr9ASP.dll
+C:\Users\xd\Desktop\pr9ASP\pr9ASP\obj\Debug\net8.0\pr9ASP.sourcelink.json

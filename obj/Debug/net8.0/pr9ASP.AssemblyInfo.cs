@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("pr9ASP")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+98d2202caa6ac527626c1ea24b013c1924f13dc2")]
 [assembly: System.Reflection.AssemblyProductAttribute("pr9ASP")]
 [assembly: System.Reflection.AssemblyTitleAttribute("pr9ASP")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
